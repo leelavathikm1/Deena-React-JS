@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Layout</title>
+    <style>
+        div#container {
+    border: 2px solid;
+}
+header {
+    border: 2px solid;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+}
+nav {
+    border: 2px solid;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+}
+div#sectionsDiv {
+    overflow: auto;
+}
+div#section-Article {
+    width: 630px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+section {
+    border: 2px solid;
+    height: 100px;
+    text-align: center;
+}
+article {
+    border: 2px solid;
+    height: 100px;
+    text-align: center;
+    margin-top: 5px;
+}
+aside {
+    border: 2px solid;
+    height: 211px;
+    margin-right: 10px;
+    width: 312px;
+    float: right;
+    text-align: center;
+}
+footer {
+    border: 2px solid;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+}
+    </style>
+</head>
+<body>
+    <!-- Semantic Elements Layout -->
+ <div id="container">
+    <header>
+        Header
+    </header>
+    <nav>
+        Nav
+    </nav>
+    <div id="sectionsDiv">
+        <div id="section-Article">
+            <section>Section</section>
+            <article>Article</article>
+        </div>
+        <aside>
+            Aside
+        </aside>
+    </div>
+    <footer>
+        Footer
+    </footer>
+ </div>
+
+</body>
+</html>
