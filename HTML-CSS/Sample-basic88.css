@@ -1,0 +1,44 @@
+div#headSection {
+    background-color: #534b4b;
+}
+header {
+    width: 750px;
+    margin: 0 auto;
+    overflow: auto;
+    height: 100px;
+}
+div#basicDiv {
+    width: 250px;
+    float: left;
+    margin-top: 17px;
+}
+strong {
+    font-size: 30px;
+    color: white;
+}
+span {
+    color: white;
+}
+nav {
+    width: 460px;
+    float: right;
+    background-color: black;
+    color: white;
+    margin-top: 22px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+    margin-right: 10px;
+}
+div#imageDiv {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#imageDiv img {
+    width: 750px;
+    height: 270px;
+}
