@@ -42,3 +42,21 @@ div#imageDiv {
     width: 750px;
     height: 270px;
 }
+div#parentsection {
+    background-color: gray;
+    overflow: auto;
+}
+div#sectionsDiv {
+    width: 750px;
+    margin: 0 auto;
+    overflow: auto;
+}
+section{
+width: 150px;
+float: left;
+margin-right: 25px;
+}
+section strong {
+    font-size: 15px;
+    color: black;
+}
